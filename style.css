@@ -1,0 +1,224 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("wallpaper.jpg");
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    cursor: url("pngegg.png"),auto;
+}
+.con{
+    width: 50vw;
+    height: 50vh;
+}
+.button{
+    padding: 20px;
+    margin: 0px 3px;
+    /* border: 2px solid black; */
+    /* border-radius: 9px; */
+    /* width: fit-content; */
+    /* cursor: pointer; */
+    /* height: fit-content; */
+    min-height: 90px;
+    min-width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    background: transparent;
+    border: transparent;
+    cursor: url("pngegg.png"),auto;
+    background-image: url("pngegg1.png");
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-position: 0;
+    background-clip: initial;
+    font-size: 45px;
+    /* color: rgb(253, 1, 1); */
+    color: rgb(255, 0, 170);
+}
+h1{
+    color: rgb(255, 0, 170);
+}
+.button:hover{
+    animation: rbtn 7s linear infinite;
+    -webkit-animation: rbtn 7s linear infinite;
+}
+.button:hover>span{
+    display: inline-block;
+    animation: rrbtn 7s linear infinite;
+    -webkit-animation: rrbtn 7s linear infinite;
+}
+.row{
+    margin: 8px 0px;
+}
+.row input{
+    margin: 0;
+    padding: 13px 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 25px;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* visibility: ; */
+}
+.row input1{
+    margin: 0;
+    padding: 13px 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 25px;
+    /* visibility: ; */
+}
+#log{
+    font-size: 30px;
+}
+.button1{
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: url("pngegg.png"),auto;
+    width: fit-content;
+    /* cursor: pointer; */
+    height: fit-content;
+    min-height: 90px;
+    min-width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    background: transparent;
+    border: transparent;
+    background-image: url("pngegg1.png");
+    /* background-image: url("football1.png"); */
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-clip: initial;
+    font-size: 26px;
+    color: rgb(255, 0, 170);
+    /* transition: transform .7s ease-in-out; */
+}
+.button1:hover{
+    animation: rbtn 7s linear infinite;
+    -webkit-animation: rbtn 7s linear infinite;
+}
+.button1:hover>span{
+    display: inline-block;
+    animation: rrbtn 7s linear infinite;
+    -webkit-animation: rrbtn 7s linear infinite;
+}
+@keyframes rbtn{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rrbtn{
+    0%{
+        transform: rotate(-0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.container{
+    justify-content: center;
+    
+}
+.sbutton2{
+    width: 344px;
+    height: 50px;
+    justify-content: center;
+    cursor: url("pngegg.png"),auto;
+    border: 2px solid black;
+    border-radius: 9px;
+    background: rgb(5,252,145);
+    background: linear-gradient(90deg, rgba(5,252,145,1) 0%, rgba(10,213,51,1) 35%, rgba(7,240,174,1) 100%);
+    /* background-color: linear-gradient(toright,red,green); */
+    /* background: linear-gradient(toright,red,green); */
+    -webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
+.sbutton1{
+    width: 288px;
+    height: 40px;
+    justify-content: center;
+    cursor: url("pngegg.png"),auto;
+    border: 2px solid black;
+    border-radius: 9px;
+    /* background-color: linear-gradient(toright,red,green); */
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite; */
+    /* background: rgb(5,252,145); */
+    background: linear-gradient(90deg, rgba(5,252,145,1) 0%, rgba(10,213,51,1) 35%, rgba(7,240,174,1) 100%);
+    /* animation: gradient 15s ease infinite; */
+    -webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+    
+}
+  
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+#advanced{
+    /* visibility: hidden; */
+    display: none;
+}
+.hidden{
+    display: none;
+}
